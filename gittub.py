@@ -63,10 +63,13 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(
         prog= 'CLI to Create or Delete a Repo',
         usage='''
-        
+              Use -c to Create a repository
+              Use -d to Delete a repository
         ''',
         description='''
-        
+        This tool works with GitHub API Token:
+        Currently, Can create and Delete a Repository
+
         ''',
         add_help= True
     )
